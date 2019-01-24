@@ -154,13 +154,13 @@ if __name__ == "__main__":
 
     p = Patlite(host, port, proto)
 
-    print """For examples.
+    print ("""For examples.
     p.red = p.ON
     p.yellow = p.BLINK
     p.green = p.OFF
 
     p.buzzer = p.SHORT
-    """
+    """)
 
     import code
     code.InteractiveConsole(globals()).interact()
